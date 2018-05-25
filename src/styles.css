@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
-
 body{
   font-family: 'Montserrat', sans-serif!important;
   font-weight: 400;
@@ -11,6 +10,23 @@ body{
 .bold{
   font-weight: 700;
 }
+.list{
+  font-size: 14px;
+}
+.allcaps{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#now-playing{
+  max-width: 58px;
+  float: left;
+}
+.icon-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 .grid{
   display: grid;
   grid-gap: 5px;
@@ -19,18 +35,17 @@ body{
   grid-auto-rows: 1fr;
 }
 .icons{
-  max-width: 48px;
-  fill: #FFFFFF;
+  max-width: 28px;
+  fill: #DDDDDD;
 }
 .navigation{
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   padding:15px;
   grid-column-start: 1;
   grid-row-start: 1;
   grid-column: span 1;
   grid-row: span 5;
+  color: #ddd;
 }
 .header{
   display: flex;
@@ -45,6 +60,7 @@ body{
   grid-column: span 3;
   grid-row-start: 2;
   grid-row: span 2;
+
 }
 .custom{
   grid-column-start: 5;
@@ -69,6 +85,18 @@ body{
   grid-column: span 9;
   grid-row-start: 6;
   grid-row: span 1;
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+  height: 88px;
+  padding:0 15px;
+}
+.albums{
+  max-width: 100px;
+}
+.artists{
+  max-width: 100px;
+  clip-path: circle(50%);
 }
 
 @media screen and (max-width: 414px){
