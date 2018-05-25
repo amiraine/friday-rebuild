@@ -14,7 +14,7 @@ Figure 1. Spotify's web application
 ![an image of my clone](/src/badclone.png)
 Figure 2. An image of my rebuild.
 
-#Future Goals
+#### Future Goals
   - add play/volume control svgs to improve overall look.
   - add more visual content
 
