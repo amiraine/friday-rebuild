@@ -9,8 +9,14 @@
 This project is a rebuild of the Spotify web application to show effective use of grids, flexbox, and media queries.
 
 ![an image of spotify's web app set to the browse page](/src/spotify.png)
+Figure 1. Spotify's web application
 
+![an image of my clone](/src/badclone.png)
+Figure 2. An image of my rebuild.
 
+#Future Goals
+  - add play/volume control svgs to improve overall look.
+  - add more visual content
 
 ## Setup/Installation Requirements
 
