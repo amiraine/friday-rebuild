@@ -1,31 +1,32 @@
-#
+#Spotify Rebuild
 
-#### [subtitle] - 4/xx/2018
+#### A sample UI update for Spotify - 5/25/2018
 
 #### By **Ami**
 
-## Description
+### Description
 
+This project is a rebuild of the Spotify web application to show effective use of grids, flexbox, and media queries.
 
-
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| Program takes user name | "Ami" | "Ami" |
-
+![an image of spotify's web app set to the browse page](/src/spotify.png)
 
 
 
 ## Setup/Installation Requirements
 
-1. Clone from GitHub repository []
-2. Open index.html in web browser.
+1. Clone from GitHub repository [https://github.com/amiraine/friday-rebuild.git]
+2. run `npm install` in your terminal.
+3. to see website as a user, open index.html in your browser.
+4. to see website as a live development server that updates as you revise the source code, enter `npm run start` into your terminal and navigate your browser to the specified localhost.
 
 ## Known Bugs
 * No known bugs at this time.
 
 ## Technologies Used
-
+  * HTML
+  * CSS
+  * Node.js
+  * Webpack
 ## Support and contact details
 
 _Email the authors with any questions, comments, or concerns._

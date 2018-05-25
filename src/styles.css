@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700');
+
+body{
+  font-family: 'Montserrat', sans-serif!important;
+  font-weight: 600;
+  background-color: #181818;
+}
+.grid{
+  display: grid;
+  grid-gap: 25px;
+  grid-template-areas:
+    "navigation"
+    "header"
+    "recent"
+    "custom"
+    "similar"
+    "play";
+}
+.navigation{
+  grid-area: navigation;
+}
+.header{
+  grid-area: header;
+}
+.recent{
+  grid-area: recent;
+}
+.custom{
+  grid-area: custom;
+
+}
+.similar{
+  grid-area: similar;
+}
+.play{
+  grid-area: play;
+}
+@media(min-width: 414px){
+  .grid{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3px;
+  }
+  .header{
+    grid-area: 1/1/2/3;
+  }
+  .recent{
+    grid-column: 1,3;
+  }
+  .custom{
+    grid-column: 1,3;
+  }
+}
